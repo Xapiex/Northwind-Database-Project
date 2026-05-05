@@ -47,18 +47,18 @@ ordenes, productos, proveedores y empleados a lo largo de varios paises
 | Territories | Territorio de ventas |
 | Region | Regiones graficas |
 
-### Normalization Applied
-- **1NF** — All columns contain atomic values, no repeating groups
-- **2NF** — All non-key columns depend on the full primary key
-- **3NF** — No transitive dependencies, ShippingAddresses 
-  extracted from Orders
+### Normalizacion Aplicada
+- **1NF** — Todas Las columnas contienen valores atomicos, no hay grupos repetidos
+- **2NF** — Todos los columnas sin llave 'key' depende completamente de la llaves primarias 
+- **3NF** — No hay dependencias transitoriass, ShippingAddresses 
+  extraido de Orders
 
 ---
 
-## Data Warehouse Model
+## Modelo Data Warehouse
 
-### Schema Type
-Star Schema
+### Tipo de esquema
+Esquema tipo estrella
 
 ### Fact Table (Hechos)
 
@@ -71,7 +71,7 @@ Star Schema
 | Freight Cost | Freight from Orders |
 | Order Count | COUNT(DISTINCT OrderID) |
 
-### Dimensions (5)
+### Dimensiones (5)
 | Dimensiones | Source |
 |---|---|
 | DimDate | Generado de OrderDate |
@@ -89,14 +89,14 @@ Star Schema
 - SQL Server Management Studio (SSMS)
 - Visual Studio with SSDT installed
 
-### Option A — Implementar mediante Scrits
+### Opcion A — Implementar mediante Scrits
 1. Open SSMS
 2. Ejecutar `OLTP/01_OLTP_CreateTables.sql`
 3. Ejecutar `OLTP/02_OLTP_InsertData.sql`
 4. Ejecutar `DataWarehouse/03_DW_CreateTables.sql`
 5. Ejecutar `DataWarehouse/04_DW_ETL.sql`
 
-### Option B — Implementar mediante DACPAC
+### Opcion B — Implementar mediante DACPAC
 1. Abrir SSMS
 2. Right click **Databases** → **Deploy Data-tier Application**
 3. Seleccionar `DACPAC/Northwind_OLTP.dacpac`
@@ -105,3 +105,14 @@ Star Schema
 ---
 
 ## Repository Structure
+Northwind-Database-Project/
+├── OLTP/               → OLTP creation and data scripts
+├── DataWarehouse/      → DW creation and ETL scripts
+├── DACPAC/             → Compiled .dacpac files
+├── VisualStudio/       → Full Visual Studio solution
+└── README.md           → This file
+
+## Autor
+[Xavier Montero Palenque]
+[ MODULO ll - ALMACENAMIENTO Y PREPARACION DE DATOS]
+[5/5/2026]
