@@ -1,0 +1,88 @@
+5/5/2026 14:24:33	This log contains information about the import schema operation into project 'Northwind_DW' on computer 'LAPTOP-L53MGS1H' by user 'Xavi'.
+5/5/2026 14:24:35	Import of database schema has started.
+5/5/2026 14:24:44	Gathering database credentials
+5/5/2026 14:24:44	Gathering database options
+5/5/2026 14:24:44	Gathering generic database scoped configuration option
+5/5/2026 14:24:44	Gathering users
+5/5/2026 14:24:44	Gathering roles
+5/5/2026 14:24:44	Gathering application roles
+5/5/2026 14:24:44	Gathering role memberships
+5/5/2026 14:24:44	Gathering filegroups
+5/5/2026 14:24:44	Gathering full-text catalogs
+5/5/2026 14:24:44	Gathering assemblies
+5/5/2026 14:24:44	Gathering certificates
+5/5/2026 14:24:44	Gathering asymmetric keys
+5/5/2026 14:24:44	Gathering symmetric keys
+5/5/2026 14:24:44	Gathering encrypted symmetric keys
+5/5/2026 14:24:44	Gathering schemas
+5/5/2026 14:24:44	Gathering XML schema collections
+5/5/2026 14:24:44	Gathering user-defined data types
+5/5/2026 14:24:44	Gathering user-defined types
+5/5/2026 14:24:44	Gathering table types
+5/5/2026 14:24:44	Gathering unique keys for table types
+5/5/2026 14:24:44	Gathering primary keys for table types
+5/5/2026 14:25:27	Gathering indexes for table types
+5/5/2026 14:25:27	Gathering check constraints for table types
+5/5/2026 14:25:27	Gathering default constraints for table types
+5/5/2026 14:25:27	Gathering partition functions
+5/5/2026 14:25:27	Gathering partition schemes
+5/5/2026 14:25:27	Gathering functions
+5/5/2026 14:25:27	Gathering encrypted functions
+5/5/2026 14:25:27	Gathering aggregates
+5/5/2026 14:25:32	Gathering procedures
+5/5/2026 14:25:32	Gathering encrypted procedures
+5/5/2026 14:25:32	Gathering tables
+5/5/2026 14:26:29	Gathering primary keys
+5/5/2026 14:26:29	Gathering unique constraints
+5/5/2026 14:26:29	Gathering foreign keys
+5/5/2026 14:26:29	Gathering default constraints
+5/5/2026 14:26:29	Gathering check constraints
+5/5/2026 14:26:29	Gathering views
+5/5/2026 14:26:29	Gathering encrypted views
+5/5/2026 14:26:29	Gathering indexes
+5/5/2026 14:26:29	Gathering statistics
+5/5/2026 14:26:29	Gathering full-text index stoplists
+5/5/2026 14:26:29	Gathering search property lists
+5/5/2026 14:26:29	Gathering search properties
+5/5/2026 14:26:29	Gathering full-text indexes
+5/5/2026 14:26:29	Gathering column store indexes
+5/5/2026 14:26:29	Gathering spatial indexes
+5/5/2026 14:26:29	Gathering XML indexes
+5/5/2026 14:26:29	Gathering Selective XML indexes
+5/5/2026 14:26:29	Gathering encrypted triggers
+5/5/2026 14:26:29	Gathering triggers
+5/5/2026 14:26:29	Gathering encrypted and clr ddl triggers
+5/5/2026 14:26:29	Gathering ddl triggers
+5/5/2026 14:26:29	Creating edge constraints
+5/5/2026 14:26:37	Gathering synonyms
+5/5/2026 14:26:37	Gathering defaults
+5/5/2026 14:26:37	Gathering data constraint uddt bindings
+5/5/2026 14:26:37	Gathering rules
+5/5/2026 14:26:37	Gathering data constraint uddt bindings
+5/5/2026 14:26:37	Gathering message types
+5/5/2026 14:26:37	Gathering queues
+5/5/2026 14:26:37	Gathering contracts
+5/5/2026 14:26:37	Gathering services
+5/5/2026 14:26:37	Gathering event notifications
+5/5/2026 14:26:37	Gathering remote service bindings
+5/5/2026 14:26:37	Gathering broker priorities
+5/5/2026 14:26:37	Gathering signatures
+5/5/2026 14:26:37	Gathering compression options
+5/5/2026 14:26:37	Gathering sequence types
+5/5/2026 14:26:37	Gathering security policies
+5/5/2026 14:26:37	Gather column encryption keys
+5/5/2026 14:26:37	Gathering column master keys
+5/5/2026 14:26:37	Gathering external data sources
+5/5/2026 14:26:37	Gathering external file formats
+5/5/2026 14:26:37	Gathering external tables
+5/5/2026 14:26:37	Gathering XML index compression options
+5/5/2026 14:26:37	Gathering extended properties
+5/5/2026 14:26:37	Gathering assemblies
+5/5/2026 14:26:37	Gathering credentials
+5/5/2026 14:26:37	Gathering logins
+5/5/2026 14:26:37	Gathering server audits
+5/5/2026 14:26:37	Scanning project for duplicate elements
+5/5/2026 14:26:37	Finished duplicate element processing
+5/5/2026 14:26:38	Finished importing database.
+5/5/2026 14:26:38	A summary of the import was saved to the following location: C:\Users\Xavi\Source\Repos\Northwind\Northwind_DW\Import Schema Logs\Northwind_DW_20260505062433.log
+5/5/2026 14:26:38	Click Finish to continue...

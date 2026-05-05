@@ -1,0 +1,10 @@
+C:\Users\Xavi\Source\Repos\Northwind\Northwind_OLTP\bin\Debug\Northwind_OLTP.dacpac
+C:\Users\Xavi\Source\Repos\Northwind\Northwind_OLTP\bin\Debug\Northwind_OLTP.dll
+C:\Users\Xavi\Source\Repos\Northwind\Northwind_OLTP\bin\Debug\Northwind_OLTP.pdb
+C:\Users\Xavi\Source\Repos\Northwind\Northwind_OLTP\obj\Debug\Northwind_OLTP.sqlproj.AssemblyReference.cache
+C:\Users\Xavi\Source\Repos\Northwind\Northwind_OLTP\obj\Debug\Model.xml
+C:\Users\Xavi\Source\Repos\Northwind\Northwind_OLTP\obj\Debug\refactor.xml
+C:\Users\Xavi\Source\Repos\Northwind\Northwind_OLTP\obj\Debug\postdeploy.sql
+C:\Users\Xavi\Source\Repos\Northwind\Northwind_OLTP\obj\Debug\predeploy.sql
+C:\Users\Xavi\Source\Repos\Northwind\Northwind_OLTP\obj\Debug\Northwind_OLTP.dll
+C:\Users\Xavi\Source\Repos\Northwind\Northwind_OLTP\obj\Debug\Northwind_OLTP.pdb
