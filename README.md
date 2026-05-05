@@ -17,6 +17,8 @@ ordenes, productos, proveedores y empleados a lo largo de varios paises
 ---
 
 ## Modelo OLTP
+## Modelo OLTP — Diagrama Entidad Relación
+![OLTP Diagram](images/oltp_diagram.png)
 
 ### Decisiones de diseño
 - CustomerID cambio de tipo de datos, antes utilizaba 'nchar(5)'
@@ -45,7 +47,7 @@ ordenes, productos, proveedores y empleados a lo largo de varios paises
 | Employees | Personal de Venta |
 | EmployeeTerritories | Territorios de empleados |
 | Territories | Territorio de ventas |
-| Region | Regiones graficas |
+| Region | Regiones Geograficas |
 
 ### Normalizacion Aplicada
 - **1NF** — Todas Las columnas contienen valores atomicos, no hay grupos repetidos
@@ -56,6 +58,9 @@ ordenes, productos, proveedores y empleados a lo largo de varios paises
 ---
 
 ## Modelo Data Warehouse
+
+## Data Warehouse — Esquema Estrella
+![DW Diagram](images/dw_diagram.png)
 
 ### Tipo de esquema
 Esquema tipo estrella
@@ -82,7 +87,7 @@ Esquema tipo estrella
 
 ---
 
-## Deployment Instructions
+## Intrucciones de Implementacion
 
 ### Requeriminetos
 - SQL Server 2019 or later
