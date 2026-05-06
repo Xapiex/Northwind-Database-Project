@@ -11,7 +11,7 @@ y una base de datos de modelo analitico (DW) basado en la base de datos
 L Server and Visual Studio SSDT.
 
 ## Dominio del negocio 
-VENTAS
+VENTAS-
 Compañia comercializadora de comida y bebidas, que gestiona clientes,
 ordenes, productos, proveedores y empleados a lo largo de varios paises 
 ---
@@ -62,9 +62,6 @@ ordenes, productos, proveedores y empleados a lo largo de varios paises
 ## Data Warehouse — Esquema Estrella
 ![DW Diagram](images/dw_diagram.png)
 
-### Tipo de esquema
-Esquema tipo estrella
-
 ### Fact Table (Hechos)
 
 ### Metricas
@@ -109,7 +106,7 @@ Esquema tipo estrella
 
 ---
 
-## Repository Structure
+## Estrutura del repositorio
 Northwind-Database-Project/
 ├── OLTP/               → OLTP creation and data scripts
 ├── DataWarehouse/      → DW creation and ETL scripts
