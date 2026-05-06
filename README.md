@@ -86,19 +86,19 @@ ordenes, productos, proveedores y empleados a lo largo de varios paises
 
 ## Intrucciones de Implementacion
 
-### Requeriminetos
+### Requerimientos
 - SQL Server 2019 or later
 - SQL Server Management Studio (SSMS)
 - Visual Studio with SSDT installed
 
-### Opcion A — Implementar mediante Scrits
+### Opción A — Implementar mediante Scrits
 1. Open SSMS
 2. Ejecutar `OLTP/01_OLTP_CreateTables.sql`
 3. Ejecutar `OLTP/02_OLTP_InsertData.sql`
 4. Ejecutar `DataWarehouse/03_DW_CreateTables.sql`
 5. Ejecutar `DataWarehouse/04_DW_ETL.sql`
 
-### Opcion B — Implementar mediante DACPAC
+### Opción B — Implementar mediante DACPAC
 1. Abrir SSMS
 2. Right click **Databases** → **Deploy Data-tier Application**
 3. Seleccionar `DACPAC/Northwind_OLTP.dacpac`
